@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+<button id="show-modal">Show</button>
+<div class="container" id="send-mail">
+    <div id="first-modal" class="form-control">
+    <h2 class="form-title">How can we help you?</h2>
+        <ul>
+            <li>
+            <button name=
+"interest" data-next="#service-modal">I am Interested in your services</button>
+            </li>
+            <li>
+            <button name=
+"interest" data-next="#product-modal">I wish to learn about a specific product</button>
+            </li>
+            <li>
+            <button name=
+"interest" data-next="#email-address-modal">I have a general question</button>
+            </li>
+        </ul>
+    </div>
+
+        <div id="service-modal" class="form-control">
+        <h2>What service would you like to know more about?</h2>
+        <ul>
+            <li>
+            <button name=
+"service" data-next="#email-address-modal">Custom Software Development</button>
+            </li>
+            <li>
+
+            <button name=
+"service" data-next="#email-address-modal">Web Development</button>
+            </li>
+            <li>
+
+            <button name=
+"service" data-next="#email-address-modal">Appliaction Development</button>
+            </li>
+        </ul>
+        </div>
+
+        <div id="product-modal">
+        <h2>Which product would you like to know more about?</h2>
+        <ul>
+            <li>
+            <button name=
+"product" data-next="#email-address-modal" >Product 1</button>
+            </li>
+            <li>
+            <button name=
+"product" data-next="#email-address-modal">Product 2</button>
+            </li>
+            <li>
+            <button name=
+"product" data-next="#email-address-modal">Product 3</button>
+            </li>
+        </ul>
+        </div>
+
+        <div id="email-address-modal">
+            <h2>Awesome! A few more things! What is your email address?</h2>
+            <form data-next="#email-question-modal">
+            <input type="email" name="email"/>
+            </form>
+        </div>
+        <div id="email-question-modal">
+            <form data-next="#last-modal">               
+                <h2>Last one we promise! What is the question you have for us?</h2>
+                <textarea name="question" class="modal-textarea" rows="4" cols="50">Text area</textarea>
+                <p><button type="submit">Send Form</button></p>
+            </form> 
+        </div>
+
+
+        <div id="last-modal">
+            <div class="status">&nbsp;</div>
+            <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-5x"></i>
+            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <h2>Yay Success!</h2>
+            <p>A team member will be reaching out to you shortly</p>
+        </div>
+</div>
+   
+    
+    
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

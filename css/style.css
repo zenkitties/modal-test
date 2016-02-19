@@ -1,0 +1,112 @@
+/*************/
+/*email modal*/
+/*************/
+
+#wpcf7-f358-p2-o1 .wpcf7-form {
+	background-color: #2C7CD1;
+	color: #fff;
+	text-align: center;
+	width: 500px;
+}
+
+#wpcf7-f358-p2-o1 .wpcf7-form h2{
+	color: #fff;
+	font-size: 2.7em;
+}
+
+#first-modal,
+#product-modal,
+#service-modal {
+    	background-color: #2C7CD1;
+	width: 500px;	
+}
+
+#wpcf7-f358-p2-o1 ul {
+	list-style-type: none;
+}
+
+#wpcf7-f358-p2-o1 input[type="radio"]{
+	display: block;
+	opacity: 1;
+	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+    	z-index: 100;
+}
+
+#wpcf7-f358-p2-o1 .email-question {
+	opacity: 1;
+}
+
+.wpcf7-list-item-label {
+	border: 2px solid #fff;
+	cursor: pointer;
+    	display: block;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+	padding: 20px;
+	width: 300px;
+	z-index: 90;
+}
+
+/*Extra styling for popup version of form*/
+#wpcf7-f358-o3 .wpcf7-form {
+	color: #fff;
+	text-align: center;
+	width: 500px;
+}
+
+
+#wpcf7-f358-o3 .wpcf7-form h2{
+	color: #fff;
+}
+
+#wpcf7-f358-o3 input[type="radio"]{
+	display: block;
+	opacity: 1;
+	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+    	z-index: 100;
+}
+
+#wpcf7-f358-o3 .email-question {
+	opacity: 1;
+}
+
+#wpcf7-f358-o3 ul {
+	list-style-type: none;
+}
+
+#first-modal li,
+#service-modal li,
+#product-modal li {
+	position: relative;
+	height: 60px;
+	width: 340px;
+}
+
+#service-modal {
+	display:none;
+}
+
+/***********/
+/* SERVICE */
+/**********/
+
+.serviceList h3 {
+color: #7c7c7c !important;
+font-size: 28px !important;
+font-weight: 500;
+}
+
+.serviceList .fl-col .fl-col-content .fl-module h3.fl-heading {
+margin-top: 30px !important;
+}
