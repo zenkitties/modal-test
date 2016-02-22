@@ -68,15 +68,19 @@
         <div id="email-address-modal">
             <h2>Awesome! A few more things! What is your email address?</h2>
             <form data-next="#email-question-modal">
-            <input type="email" name="email"/>
+            <input id="email-address" type="email" name="email" required/>
+            <label for="email-addrss" class="subscribe-message error" style="">
+              <i class="fa fa-warning"></i>
+              <span class="message-content"></span>
+            </label>
             </form>
         </div>
         <div id="email-question-modal">
-            <form data-next="#last-modal">               
+            <form data-next="#last-modal">
                 <h2>Last one we promise! What is the question you have for us?</h2>
-                <textarea name="question" class="modal-textarea" rows="4" cols="50">Text area</textarea>
+                <textarea name="question" class="modal-textarea" rows="4" cols="50" required>Text area</textarea>
                 <p><button type="submit">Send Form</button></p>
-            </form> 
+            </form>
         </div>
 
 
@@ -90,10 +94,10 @@
             <p>A team member will be reaching out to you shortly</p>
         </div>
 </div>
-   
-    
-    
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
