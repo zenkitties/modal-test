@@ -1,0 +1,214 @@
+/*************/
+/*email modal*/
+/*************/
+
+#wpcf7-f358-p2-o1 .wpcf7-form {
+	background-color: #2C7CD1;
+	color: #fff;
+	text-align: center;
+	width: 500px;
+}
+
+#wpcf7-f358-p2-o1 .wpcf7-form h2{
+	color: #fff;
+	font-size: 2.7em;
+}
+
+#first-modal,
+#product-modal,
+#service-modal,
+#email-address-modal,
+#email-question-modal,
+#last-modal {
+    background-color: #2C7CD1;
+	width: 500px;
+    height: 100%;
+}
+
+#wpcf7-f358-p2-o1 ul {
+	list-style-type: none;
+}
+
+#wpcf7-f358-p2-o1 input[type="radio"]{
+	display: block;
+	opacity: 1;
+	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+    	z-index: 100;
+}
+
+#wpcf7-f358-p2-o1 .email-question {
+	opacity: 1;
+}
+
+.wpcf7-list-item-label {
+	border: 2px solid #fff;
+	cursor: pointer;
+    	display: block;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+	padding: 20px;
+	width: 300px;
+	z-index: 90;
+}
+
+/*Extra styling for popup version of form*/
+#wpcf7-f358-o3 .wpcf7-form {
+	color: #fff;
+	text-align: center;
+	width: 500px;
+}
+
+
+#wpcf7-f358-o3 .wpcf7-form h2{
+	color: #fff;
+}
+
+#wpcf7-f358-o3 input[type="radio"]{
+	display: block;
+	opacity: 1;
+	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;	
+    	z-index: 100;
+}
+
+#wpcf7-f358-o3 .email-question {
+	opacity: 1;
+}
+
+#wpcf7-f358-o3 ul {
+	list-style-type: none;
+}
+
+#first-modal li,
+#service-modal li,
+#product-modal li {
+	position: relative;
+	height: 60px;
+	width: 340px;
+}
+
+#service-modal {
+	display:none;
+}
+
+/***********/
+/* SERVICE */
+/**********/
+
+.serviceList h3 {
+color: #7c7c7c !important;
+font-size: 28px !important;
+font-weight: 500;
+}
+
+.serviceList .fl-col .fl-col-content .fl-module h3.fl-heading {
+margin-top: 30px !important;
+}
+
+
+/**************/
+/*MODAL STYLES*/
+/**************/
+
+#send-mail {
+    font-family: "Raleway",sans-serif;
+    color: #fff;
+}
+
+#send-mail ul {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
+#send-mail ul li {
+    margin: 0 auto;
+}
+#send-mail ul button {
+    background: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+#send-mail input,
+#send-mail textarea {
+    border-radius: 4px;
+    width: 75%;
+    border: none;
+    min-height: 35px;
+    padding-left: 10px;
+}
+
+#send-mail form,
+#send-mail form input {
+    text-align: center;
+}
+
+#send-mail textarea {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+h2.form-title {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    min-height: 340px;
+    padding: 6px 20px !important;
+}
+
+#email-question-modal button {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: hsl(55, 100%, 40%);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 40px;
+}
+
+
+/* This is the success part of the modal */
+#last-modal {
+    background-color: hsl(120, 40%, 37%);
+}
+
+.fa-envelope-o {
+    
+    color: hsl(120, 40%, 37%);
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 50%;
+}
+
+#last-modal h2 {
+    font-size: 40px;
+}
+
+#last-modal p {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+

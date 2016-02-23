@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Modal Test</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-modal.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 <button id="show-modal">Show</button>
@@ -28,7 +30,7 @@
     </div>
 
         <div id="service-modal" class="form-control">
-        <h2>What service would you like to know more about?</h2>
+        <h2 class="form-title">What service would you like to know more about?</h2>
         <ul>
             <li>
             <button name=
@@ -47,8 +49,8 @@
         </ul>
         </div>
 
-        <div id="product-modal">
-        <h2>Which product would you like to know more about?</h2>
+        <div id="product-modal" class="form-control">
+        <h2 class="form-title">Which product would you like to know more about?</h2>
         <ul>
             <li>
             <button name=
@@ -65,34 +67,34 @@
         </ul>
         </div>
 
-        <div id="email-address-modal">
-            <h2>Awesome! A few more things! What is your email address?</h2>
+        <div id="email-address-modal" class="form-control">
+            <h2 class="form-title">Awesome! A few more things! What is your email address?</h2>
             <form data-next="#email-question-modal">
-            <input id="email-address" type="email" name="email" required/>
-            <label for="email-addrss" class="subscribe-message error" style="">
+            <input id="email-address" type="email" name="email" placeholder="Enter your email address here" required/>
+            <label for="email-address" class="subscribe-message error" style="">
               <i class="fa fa-warning"></i>
               <span class="message-content"></span>
             </label>
             </form>
         </div>
-        <div id="email-question-modal">
+        <div id="email-question-modal" class="form-control">
             <form data-next="#last-modal">
-                <h2>Last one we promise! What is the question you have for us?</h2>
-                <textarea name="question" class="modal-textarea" rows="4" cols="50" required>Text area</textarea>
-                <p><button type="submit">Send Form</button></p>
+                <h2 class="form-title">Last one we promise! What is the question you have for us?</h2>
+                <textarea name="question" class="modal-textarea" rows="6" cols="50" placeholder="Enter message here" required></textarea>
+                <p><button type="submit" class="pull-right">Send Form</button></p>
             </form>
         </div>
 
 
-        <div id="last-modal">
+        <div id="last-modal" class="form-control text-center">
             <div class="status">&nbsp;</div>
-            <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-5x"></i>
-            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+            <span class="envelope">
+                <i class="fa fa-5x fa-envelope-o"></i>
             </span>
-            <h2>Yay Success!</h2>
+            <h2 class="form-title">Yay Success!</h2>
             <p>A team member will be reaching out to you shortly</p>
         </div>
+        
 </div>
 
 
